@@ -8,8 +8,7 @@ body {
 }
 .main-container {
   max-width: 1110px;
-  width: 100%;
-  margin: 10dvh auto;
+  margin: 153px auto;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -17,12 +16,10 @@ body {
 .daniel-container {
   display: flex;
   flex-direction: column;
-  padding-left: 32px;
-  padding-top: 26px;
-  margin-right: 30px;
-  margin-bottom: 24px;
   width: 540px;
+  height: 282px;
   background-color: #733fc8;
+  margin: 0px 30px 24px 0px;
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   grid-area: 1 / 1 / 2 / 3;
@@ -30,6 +27,7 @@ body {
 .profile-container {
   display: flex;
   gap: 4px;
+  margin: 26px 0px 0px 32px;
 }
 .profile-container img {
   width: 28px;
@@ -56,6 +54,7 @@ body {
   font-weight: 600;
   color: #ffffff;
   line-height: 24px;
+  margin-left: 32px;
 }
 .advice-container p {
   margin-top: 16px;
@@ -64,18 +63,19 @@ body {
   font-weight: 500;
   color: #cfcfcf70;
   line-height: 18px;
+  margin-left: 32px;
 }
 .jonathan-container {
   width: 255px;
-  margin-right: 30px;
-  margin-bottom: 24px;
+  height: 282px;
   background-color: #48556a;
   border-radius: 8px;
+  margin-bottom: 24px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   grid-area: 1 / 3 / 2 / 4;
 }
 .content-container {
-  padding: 26px 32px;
+  margin: 26px 0px 0px 32px;
 }
 
 .history-container1 p {
@@ -95,14 +95,12 @@ body {
 }
 .kira-container {
   width: 255px;
+  height: 572px;
+  margin-left: 30px;
   background-color: #ffffff;
-
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   grid-area: 1 / 4 / 3 / 5;
-}
-.kira-container .content-container {
-  padding: 26px 32px;
 }
 .kira-container .profile-container .name {
   color: #48556a;
@@ -131,15 +129,17 @@ body {
   background-color: #ffffff;
   border-radius: 8px;
   margin-right: 30px;
+  width: 255px;
+  height: 266px;
 }
-.jeanette-container .person-info-container .name {
+.jeanette-containe .jeanette-container .content-container {
   color: #48556a;
   font-size: 13px;
 }
 .jeanette-container .person-info-container .profession {
   color: #48556a50;
   font-weight: 500;
-  padding-bottom: 18px;
+  margin-bottom: 18px;
 }
 .jeanette-history {
   width: 185px;
@@ -147,7 +147,6 @@ body {
   font-weight: 600;
   line-height: 24px;
   color: #48556a;
-  padding-bottom: 24px;
 }
 .jeanette-advice-container {
   font-size: 13px;
@@ -159,9 +158,9 @@ body {
 .patric-container {
   border-radius: 8px;
   width: 540px;
-  padding-left: 32px;
-  padding-top: 26px;
+  height: 266px;
+  /* padding-left: 32px;
+  padding-top: 26px; */
   background-color: #19202d;
   grid-area: 2 / 2 / 3 / 4;
-  margin-right: 30px;
 }
