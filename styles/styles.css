@@ -19,15 +19,19 @@ body {
   width: 540px;
   height: 282px;
   background-color: #733fc8;
-  margin: 0px 30px 24px 0px;
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   grid-area: 1 / 1 / 2 / 3;
 }
 .profile-container {
+  width: 121px;
+  height: 28px;
   display: flex;
   gap: 4px;
-  margin: 26px 0px 0px 32px;
+  margin-bottom: 18px;
+}
+.long-container {
+  margin: 26px 0px 18px 32px;
 }
 .profile-container img {
   width: 28px;
@@ -35,12 +39,16 @@ body {
 }
 
 .person-info-container {
-  padding-left: 17px;
 }
 .person-info-container .name {
   font-size: 13px;
   font-weight: 500;
   color: #ffffff;
+}
+.person-info-container .name1 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
 }
 .person-info-container .profession {
   font-size: 11px;
@@ -48,7 +56,6 @@ body {
   color: #ffffff50;
 }
 .history-container p {
-  margin-top: 18px;
   width: 462px;
   font-size: 20px;
   font-weight: 600;
@@ -147,6 +154,7 @@ body {
   font-weight: 600;
   line-height: 24px;
   color: #48556a;
+  margin-bottom: 24px;
 }
 .jeanette-advice-container {
   font-size: 13px;
@@ -159,8 +167,152 @@ body {
   border-radius: 8px;
   width: 540px;
   height: 266px;
-  /* padding-left: 32px;
-  padding-top: 26px; */
   background-color: #19202d;
   grid-area: 2 / 2 / 3 / 4;
+}
+
+@media (max-width: 327px) {
+  .daniel-container {
+    width: 327px;
+    height: 444px;
+  }
+}
+@media (max-width: 327px) {
+  .profile-container {
+    margin: 26px 0px 18px 0px;
+  }
+}
+@media (max-width: 327px) {
+  .profile-container p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 327px) {
+  .history-container p {
+    width: 263px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 327px) {
+  .advice-container p {
+    margin-top: 26px;
+    margin-bottom: 32px;
+    width: 247px;
+    height: 180px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 327px) {
+  .jonathan-container {
+    width: 327px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 327px) {
+  .history-container1 {
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .history-container1 p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .advice-container1 {
+    width: 263px;
+    height: 72px;
+  }
+}
+@media (max-width: 327px) {
+  .advice-container1 p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 263px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 327px) {
+  .kira-container {
+    width: 327px;
+    height: 428px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-container .kira-history {
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-history p {
+    font-size: 20px;
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-advice-container {
+    width: 263px;
+    height: 270px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-advice-container p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 263px;
+    height: 720px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-container {
+    width: 327px;
+    height: 222px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-history {
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-history p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-advice-container {
+    width: 263px;
+    height: 72px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-advice-container p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 263px;
+    height: 72px;
+    margin: 0 auto;
+  }
 }
