@@ -316,3 +316,12 @@ body {
     margin: 0 auto;
   }
 }
+@media (max-width: 327px) {
+  .patric-container {
+    width: 327px;
+    height: 444px;
+  }
+}
+.patric-container .profile-container {
+  margin-left: 32px;
+}
