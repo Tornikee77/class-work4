@@ -1,0 +1,351 @@
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  src: url(../assets/font/BarlowSemiCondensed-Regular.ttf);
+}
+body {
+  font-family: "BarlowSemiCondensed";
+  background-color: #ecf2f8;
+}
+.main-container {
+  max-width: 1110px;
+  margin: 153px auto;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+.daniel-container {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  height: 282px;
+  background-color: #733fc8;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  grid-area: 1 / 1 / 2 / 3;
+  position: relative;
+}
+.profile-container {
+  width: 121px;
+  height: 28px;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 18px;
+}
+.long-container {
+  margin: 26px 0px 18px 32px;
+}
+.profile-container img {
+  width: 28px;
+  height: 28px;
+}
+
+.person-info-container {
+}
+.person-info-container .name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.person-info-container .name1 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
+}
+.person-info-container .profession {
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff50;
+}
+.history-container p {
+  width: 462px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 24px;
+  margin-left: 32px;
+  position: relative;
+  z-index: 2;
+}
+.decoration {
+  position: absolute;
+  z-index: 1;
+  width: 104px;
+  height: 102px;
+  right: 80px;
+  top: 0px;
+}
+.advice-container p {
+  margin-top: 16px;
+  width: 462px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #cfcfcf70;
+  line-height: 18px;
+  margin-left: 32px;
+}
+.jonathan-container {
+  width: 255px;
+  height: 282px;
+  background-color: #48556a;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  grid-area: 1 / 3 / 2 / 4;
+}
+.content-container {
+  margin: 26px 0px 0px 32px;
+}
+
+.history-container1 p {
+  width: 192px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+.advice-container1 p {
+  width: 191px;
+  font-size: 13px;
+  color: #ffffff70;
+  line-height: 18px;
+}
+.kira-container {
+  width: 255px;
+  height: 572px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  grid-area: 1 / 4 / 3 / 5;
+}
+.kira-container .profile-container .name {
+  color: #48556a;
+  font-size: 13px;
+}
+.kira-container .profile-container .profession {
+  font-size: 11px;
+  color: #48556a50;
+}
+.kira-history p {
+  margin-top: 18px;
+  width: 191px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #48556a;
+}
+.kira-advice-container {
+  width: 191px;
+  font-size: 13px;
+  color: #48556a70;
+  line-height: 18px;
+  margin-top: 24px;
+}
+.jeanette-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-right: 30px;
+  width: 255px;
+  height: 266px;
+}
+.jeanette-containe .jeanette-container .content-container {
+  color: #48556a;
+  font-size: 13px;
+}
+.jeanette-container .person-info-container .profession {
+  color: #48556a50;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.jeanette-history {
+  width: 185px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #48556a;
+  margin-bottom: 24px;
+}
+.jeanette-advice-container {
+  font-size: 13px;
+  color: #48556a70;
+  line-height: 18px;
+  width: 191px;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.patric-container {
+  border-radius: 8px;
+  width: 540px;
+  height: 266px;
+  background-color: #19202d;
+  grid-area: 2 / 2 / 3 / 4;
+}
+@media (max-width: 327px) {
+  .main-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 375px;
+    height: 1728px;
+    align-items: center;
+    gap: 23px;
+  }
+}
+
+@media (max-width: 327px) {
+  .daniel-container {
+    width: 327px;
+    height: 444px;
+    grid-area: 1 / 1 / 3 / 2;
+  }
+}
+
+@media (max-width: 327px) {
+  .profile-container p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 327px) {
+  .history-container p {
+    width: 263px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 327px) {
+  .advice-container p {
+    margin-top: 26px;
+    margin-bottom: 32px;
+    width: 247px;
+    height: 180px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 327px) {
+  .jonathan-container {
+    width: 327px;
+    height: 240px;
+    grid-area: 3 / 1 / 4 / 2;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 327px) {
+  .history-container1 {
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .history-container1 p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .advice-container1 {
+    width: 263px;
+    height: 72px;
+  }
+}
+@media (max-width: 327px) {
+  .advice-container1 p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 263px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 327px) {
+  .kira-container {
+    width: 327px;
+    height: 438px;
+    grid-area: 7 / 1 / 9 /2;
+    margin: 0px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-container .kira-history {
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-history p {
+    font-size: 20px;
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-advice-container {
+    width: 263px;
+    height: 270px;
+  }
+}
+@media (max-width: 327px) {
+  .kira-advice-container p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 263px;
+    height: 720px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-container {
+    width: 327px;
+    height: 222px;
+    grid-area: 4 / 1 / 5 / 2;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-history {
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-history p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 263px;
+    height: 48px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-advice-container {
+    width: 263px;
+    height: 72px;
+  }
+}
+@media (max-width: 327px) {
+  .jeanette-advice-container p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 263px;
+    height: 72px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 327px) {
+  .patric-container {
+    width: 327px;
+    height: 444px;
+    grid-area: 5 / 1 / 7 / 2;
+  }
+}
+.patric-container .profile-container {
+  margin-left: 32px;
+}
